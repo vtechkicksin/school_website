@@ -1,9 +1,18 @@
 To run your Strapi application followed by your React application (school_website), you will need to follow these steps:
 
+npm show strapi version
+node -v
+
+my strapi version = 3.6.11
+my node version = v21.7.1
+my react version = 18.2.0
+my tailwind version = 3.4.3
+
 Step 1: Run my-strapi Application
 1. Open a terminal window.
 2. Navigate to the directory where your my-strapi application is located.
-3. Run the following command to start the Strapi server:
+3. Run the following command to start the Strapi server:npm i followed by npm start this will start the strapi server and now my school_website can access APIs
+
 
 
 
@@ -13,7 +22,7 @@ This command will start the Strapi server, and it will typically be accessible a
 Step 2: Run school_website React Application
 1. Open another terminal window (or a new tab in your terminal).
 2. Navigate to the directory where your school_website React application is located.
-3. Run the following commands to install dependencies and start the React development server:
+3. Run the following commands to install dependencies and start the React development server: npm i followed by npm start
 
 This will install all the required dependencies for your React application and start the development server. Your React application will typically be accessible at http://localhost:3000.
 
