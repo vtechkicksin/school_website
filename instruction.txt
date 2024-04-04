@@ -1,3 +1,21 @@
+create a .env file in my-strapi folder and paste below info
+
+HOST=0.0.0.0
+PORT=1337
+APP_KEYS=M3MmBuHaGoYyuAQ8Mr87EA==,bTDQFtvd/FBLVoNmn+AJ7g==,+QHIWeRR4I/nB+BrogVPbw==,jcnIKWv2GDqy1gN9BorERw==
+API_TOKEN_SALT=rVQlGWbPJKblGK0vpo+6Ow==
+ADMIN_JWT_SECRET=BqdrFLmjZ+iiSXbFXzyEvg==
+TRANSFER_TOKEN_SALT=VyqoUjIP7FpbQnLh/LPaFA==
+# Database
+DATABASE_CLIENT=sqlite
+DATABASE_FILENAME=.tmp/data.db
+JWT_SECRET=T+G86MaKpCJekW6rqT+Sng==
+
+
+---------------------------------------------**************************************----------------------------------------------------------
+
+
+
 To run your Strapi application followed by your React application (school_website), you will need to follow these steps:
 
 npm show strapi version
